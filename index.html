@@ -1,26 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<h1>Tshego's Portfolio</h1>
-<H2>Project and Traffic Manager</h2>
+    <!--I have updated my HTML5 code with response instructions as discussed in class-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--This is a link to adding tailwind-->
+    <script src="https://tailwindcss.com"></script>
+    <title>Tshego's Portfolio</title>
+    <!--styles css link that was previously in this line is now deleted because I am using tailwind framework-->
+    <!-- this marks the end of head-->
 </head>
 <body>
-<p>
-I am a Project and Traffic Manager who turns operational chaos into streamlined, on-time campaign delivery. Over the last 10+ years, I have served as the central engine behind high-volume creative pipelines for market leaders like H&M, Standard Bank, and MTN. 
-My expertise is built on high-level operational execution. Whether I am orchestrating cross-continental digital rollouts across four time zones via Scala, running high-velocity Agile/Scrum huddles, or managing technical dev pipelines in Jira, my focus remains the same: protecting the agency's bottom line and eliminating studio friction. 
-I don't just track timelines; I optimize team capacity and untangle complex resource bottlenecks so world-class creative work can happen on budget and without delays.
-</p>
-</body>
-<!--James I am adding navigation here but not sure how to host the assets so you can click on them-->
-<nav>
-<a href="about">About me</a>
-<a href="clients">Current and previous clients</a>
-<a href="contact">How to reach me</a>
-</nav>
-<footer>
-<p>Referenced are available upon request</p>
+    <h1>Tshego's Portfolio</h1>
+    <h2>Project and Traffic Manager</h2>
+    <p>I am a Project, Studio and Traffic Manager who turns operational chaos into streamlined, on-time and peaceful, campaign delivery</p>
+    <!--I am now adding tail wind cards inside the body. This is code from the module. I copy and pasted the classes. Still not comfortable with classes. Need more practive-->
+    <div class="bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-lg font-bold text-gray-800">What I bring to the table</h2>
+        <p class="text-sm text-gray-600">Structure, process and on time delivery</p>
+    </div>
+    <!--This is the end of the tail wind framework-->
+    <!--I am using ul in my nav so this part of the code is also updated. Then I updated the CSS code to make the below stand out-->
+    <nav>
+        <ul>
+        <li><a href="about.html">About me</a></li>
+        <li><a href="clients.html">Clients</a></li>
+        <li><a href="contact.html">Contact</a></li>
+          </ul>
+    </nav>
+  <ul>
+  <li>Agency experience</li>
+  <li>Corporate work experience</li>
+</ul>
+<ol>
+  <li>Oliver Agency</li>
+  <li>BrightRock Life Insurance</li>
+</ol>
+<!--I am adding this new paragraph because I need to use Grid.-->
+<p> Here are the tools that I am proficient at</p>
+<div class="grid-container">
+  <div class="grid-item">Jira</div>
+  <div class="grid-item">Asana</div>
+  <div class="grid-item">Chase software</div>
+  <div class="grid-item">Scala CMS</div>
+</div>
+    <footer>
+        <p>References are available upon request</p>
+    </footer>
 </body>
 </html>
+
+
+
+
+
 
 
 

@@ -1,17 +1,61 @@
 body {
-    background-color: greenyellow;
+    background-color: lightblue;
     font-family: Arial, sans-serif;
     padding: 20px;
 }
+
 h1 {
-    color: darkturquoise;
+    color: darksalmon;
 }
+
 nav a {
     color: goldenrod;
-    padding: 10 px 20px;
+    padding: 10px 20px;
     margin: 0 10px;
     font-family: Arial, Helvetica, sans-serif;
-}
+} /* FIXED: Closed the block cleanly before adding comments */
+
+/* James, from here this is all new and updated code. It's simple because I am still grasping concepts */
+/* Colors (American spelling) updated to make site more readable */
+
 footer {
     background-color: antiquewhite;
 }
+
+ul {
+  list-style-type: circle; /* Normal bullet points will be hollow circles */
+}
+
+ol {
+  list-style-type: decimal; /* this part also kept breaking my code because i put in circle then Changed 'solid circle' */
+}
+
+/* Incorporating navigation styling. I am going to Keep it simple to not confuse myself */
+nav ul {
+  list-style: none; /* I got AI to help me here because something here kept being flagged as wrong */
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Incorporating grid as outlined in the module. I added a new paragraph that speaks to my skills */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* So my grid will then stay equal size */
+  gap: 10px; 
+}
+
+.grid-item { 
+  background-color: paleturquoise;
+  color: goldenrod;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+
+
+      
+
